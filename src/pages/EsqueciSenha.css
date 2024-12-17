@@ -1,0 +1,56 @@
+#recuperar{
+    background-color: #f4f4f4 ;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#recuperar-box{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 400px;
+    border-radius: 11px;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#recuperar-fields{
+    width: 75%;
+    height: 50%;
+    /* background-color: purple; */
+}
+
+#recuperar-fields p{
+    text-align: justify;
+}
+
+#recuperar-form{
+    width: 75%;
+    height: 40%;
+    /* background-color: rgb(211, 180, 211); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#recuperar-form div{
+    /* background-color: yellow; */
+    height: 40%;
+    /* border: 2px solid black; */
+}
+
+#recuperar-form input{
+    width: 98%;
+    height: 28px;
+    margin-top: 5px;
+    outline: none;
+    border:0;
+    border-bottom: 1px solid black; 
+    /* border-radius: 3px; */
+}

@@ -13,7 +13,7 @@ function Login() {
                 </input>
             </div>
             <div id="login-forgot-password">
-                <a href="/cadastro">Esqueci a senha</a>
+                <a href="/esquecisenha">Esqueci a senha</a>
             </div>
             <div id="login-button">
                 <button type="submit">ENTRAR</button>
