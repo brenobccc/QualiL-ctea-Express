@@ -1,11 +1,11 @@
 import React from "react";
 import './Login.css';
-import Button from "../components/Button";
+
 
 function Login() {
     return <div id="login">
         {/* <Button nome="Entrar"/> */}
-        <form action="/cadastro" method="get">
+        <form action="/paginaPrincipal" method="get">
             <div id="login-inputs">
                 <input placeholder="E-mail" type="email">
                 </input>

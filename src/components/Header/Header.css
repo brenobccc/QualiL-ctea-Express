@@ -1,0 +1,101 @@
+#header{
+    background-color: #4F4DEC;
+    width: 100%;
+    height: 270px;
+}
+
+#header #header-content{
+    /* background-color: aliceblue; */
+    height: 75%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 70px;
+}
+
+
+#header #header-logo{
+    width: 300px;
+    height: 100px;
+    background-color: brown;
+    border-radius: 10px;
+    background-image: url(LogoHorizontal.png);
+    background-position: center;
+    background-size: 108%;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+#header #header-search-bar{
+    width: 500px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 2px;
+    padding-right: 10px;
+    padding-left    : 10px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+
+#header #header-search-bar input{
+    width: 90%;
+    height: 100%;
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-size: medium;
+}
+
+
+#header #header-search-bar button{
+    width: 9%;
+    background-color: #F6CCA6;
+    border-radius: 30px;
+    height: 95%;
+    background-image: url(search-icon.png);
+    background-position: center;
+    background-size: 20px;
+    background-repeat: no-repeat;
+}
+
+#header #header-search-bar button:hover{
+    background-color: #eeb17c;
+}
+
+#header #header-nav{
+    background-color: #5A57F2;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+    padding-left:40px;
+    padding-right:40px;
+}
+
+#header #header-nav .nav-option{
+    background: #84A3E6;
+    height: 80%;
+    width: 23%;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 1s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    font-size: larger;
+    color: white    ;
+}
+
+#header #header-nav .nav-option:hover{
+    background: #567ed5;
+}

@@ -1,6 +1,6 @@
 import React from "react";
 import './EsqueciSenha.css';
-import Button from "../components/Button";
+import Button from "../../components/Button/Button";
 
 function EsqueciSenha() {
     return <div id="recuperar">
